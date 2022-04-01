@@ -1,0 +1,55 @@
+{
+  "name": "@stdlib/assert-is-unc-path",
+  "version": "0.0.0",
+  "description": "Test if a value is a UNC path.",
+  "license": "Apache-2.0",
+  "type": "module",
+  "main": "./mod.js",
+  "homepage": "https://stdlib.io",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/stdlib-js/assert-is-unc-path.git"
+  },
+  "bugs": {
+    "url": "https://github.com/stdlib-js/stdlib/issues"
+  },
+  "keywords": [
+    "stdlib",
+    "stdassert",
+    "assertion",
+    "assert",
+    "utilities",
+    "utility",
+    "utils",
+    "util",
+    "is",
+    "is-unc",
+    "is-path",
+    "unc",
+    "universal",
+    "unified",
+    "uniform",
+    "naming",
+    "convention",
+    "path",
+    "network",
+    "device",
+    "filesystem",
+    "file",
+    "filepath",
+    "filename",
+    "dir",
+    "directory",
+    "dirpath",
+    "check",
+    "validate",
+    "valid",
+    "isvalid",
+    "is-valid",
+    "test"
+  ],
+  "funding": {
+    "type": "patreon",
+    "url": "https://www.patreon.com/athan"
+  }
+}
