@@ -48,7 +48,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import isUNCPath from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-unc-path@deno/mod.js';
+import isUNCPath from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-unc-path@v0.2.2-deno/mod.js';
 ```
 
 #### isUNCPath( value )
@@ -74,7 +74,7 @@ bool = isUNCPath( '/foo/bar/baz' );
 <!-- eslint no-undef: "error" -->
 
 ```javascript
-import isUNCPath from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-unc-path@deno/mod.js';
+import isUNCPath from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-unc-path@v0.2.2-deno/mod.js';
 
 var path = '\\\\server\\share\\foo\\bar\\baz:a:b';
 var bool = isUNCPath( path );
