@@ -48,6 +48,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import isUNCPath from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-unc-path@deno/mod.js';
+```
+The previous example will load the latest bundled code from the deno branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/assert-is-unc-path/tags). For example,
+
+```javascript
 import isUNCPath from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-unc-path@v0.2.2-deno/mod.js';
 ```
 
@@ -74,7 +79,7 @@ bool = isUNCPath( '/foo/bar/baz' );
 <!-- eslint no-undef: "error" -->
 
 ```javascript
-import isUNCPath from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-unc-path@v0.2.2-deno/mod.js';
+import isUNCPath from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-unc-path@deno/mod.js';
 
 var path = '\\\\server\\share\\foo\\bar\\baz:a:b';
 var bool = isUNCPath( path );
